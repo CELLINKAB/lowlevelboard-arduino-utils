@@ -1,0 +1,27 @@
+# See: https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5-3rd-party-Hardware-specification
+
+##############################################################
+
+menu.cpu=Processor
+
+########################################
+## Neocortex
+########################################
+neocortex.name=Neocortex
+neocortex.vid.0=0x0403
+neocortex.pid.0=0x6001
+neocortex.upload.tool=arduino:avrdude
+neocortex.upload.protocol=wiring
+neocortex.upload.maximum_size=258048
+neocortex.upload.speed=115200
+neocortex.bootloader.low_fuses=0xFF
+neocortex.bootloader.high_fuses=0xD8
+neocortex.bootloader.extended_fuses=0xFD
+neocortex.bootloader.path=stk500v2
+neocortex.bootloader.unlock_bits=0x3F
+neocortex.bootloader.lock_bits=0x0F
+neocortex.build.mcu=atmega2560
+neocortex.build.f_cpu=16000000L
+neocortex.build.board=AVR_NEOCORTEX
+neocortex.build.core=arduino:arduino
+neocortex.build.variant=neocortex

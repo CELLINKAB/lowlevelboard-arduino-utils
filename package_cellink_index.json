@@ -1,0 +1,46 @@
+{
+   "packages": [
+      {
+         "name": "neocortex",
+         "maintainer": "Cellink",
+         "websiteURL": "https://github.com/CELLINKAB/lowlevelboard-arduino-utils",
+         "email": "dpl@cellink.com",
+         "help": {
+            "online": "https://cellink.com"
+         },
+         "platforms": [
+            {
+               "name": "NeoCortex",
+               "architecture": "avr",
+               "version": "1.0.0",
+               "category": "Contributed",
+               "url": "https://raw.githubusercontent.com/CELLINKAB/lowlevelboard-arduino-utils/master/neocortex-1.0.0.zip",
+               "archiveFileName": "neocortex-1.0.0.zip",
+               "checksum": "SHA-256:b93b0abb16515a9c0df408b2213ff854856c276689344331ce0cbd15e19ee916",
+               "size": "4155",
+               "help": {
+                  "online": "https://cellink.com"
+               },
+               "boards": [
+                  {
+                     "name": "Neocortex"
+                  }
+               ],
+               "toolsDependencies": [
+                  {
+                     "packager": "arduino",
+                     "name": "avr-gcc",
+                     "version": "4.8.1-arduino5"
+                  },
+                  {
+                     "packager": "arduino",
+                     "name": "avrdude",
+                     "version": "6.0.1-arduino5"
+                  }
+               ]
+            }
+         ],
+         "tools": []
+      }
+   ]
+}
