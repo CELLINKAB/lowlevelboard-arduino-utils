@@ -1,8 +1,7 @@
 # See: https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5-3rd-party-Hardware-specification
 
-##############################################################
-
-menu.cpu=Processor
+# Add Revision to menu options
+menu.revision=Revision
 
 ########################################
 ## Neocortex
@@ -22,28 +21,15 @@ neocortex.bootloader.unlock_bits=0x3F
 neocortex.bootloader.lock_bits=0x0F
 neocortex.build.mcu=atmega2560
 neocortex.build.f_cpu=16000000L
-neocortex.build.board=AVR_NEOCORTEX
 neocortex.build.core=arduino:arduino
 neocortex.build.variant=neocortex
 
-
 ########################################
-## Neocortex 2
-neocortex2.name=Neocortex2
-neocortex2.vid.0=0x0403
-neocortex2.pid.0=0x6001
-neocortex2.upload.tool=arduino:avrdude
-neocortex2.upload.protocol=wiring
-neocortex2.upload.maximum_size=258048
-neocortex2.upload.speed=115200
-neocortex2.bootloader.low_fuses=0xFF
-neocortex2.bootloader.high_fuses=0xD8
-neocortex2.bootloader.extended_fuses=0xFD
-neocortex2.bootloader.path=stk500v2
-neocortex2.bootloader.unlock_bits=0x3F
-neocortex2.bootloader.lock_bits=0x0F
-neocortex2.build.mcu=atmega2560
-neocortex2.build.f_cpu=16000000L
-neocortex2.build.board=AVR_NEOCORTEX2
-neocortex2.build.core=arduino:arduino
-neocortex2.build.variant=neocortex
+
+# default board is not enabled, and must be overridden by the revision menu:
+
+neocortex.menu.revision.neocortex1=Neocortex 1.X
+neocortex.menu.revision.neocortex1.build.board=AVR_NEOCORTEX
+
+neocortex.menu.revision.neocortex2=Neocortex 2.X
+neocortex.menu.revision.neocortex2.build.board=AVR_NEOCORTEX2
