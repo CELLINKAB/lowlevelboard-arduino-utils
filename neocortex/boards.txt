@@ -23,10 +23,11 @@ neocortex.build.mcu=atmega2560
 neocortex.build.f_cpu=16000000L
 neocortex.build.core=arduino:arduino
 neocortex.build.variant=neocortex
+neocortex.build.board=AVR_NEOCORTEX2
 
 ########################################
 
-# default board is not enabled, and must be overridden by the revision menu:
+# The default 'build.board' can be overriden by using the revision option:
 
 neocortex.menu.revision.neocortex1=Neocortex 1.X
 neocortex.menu.revision.neocortex1.build.board=AVR_NEOCORTEX
