@@ -12,11 +12,11 @@
             {
                "name": "NeoCortex",
                "architecture": "avr",
-               "version": "1.1.0",
+               "version": "1.2.0",
                "category": "Contributed",
-               "url": "https://raw.githubusercontent.com/CELLINKAB/lowlevelboard-arduino-utils/master/neocortex-1.1.0.zip",
-               "archiveFileName": "neocortex-1.1.0.zip",
-               "checksum": "SHA-256:0ab3ca680f930318a4c0ae7dbb494af8ca9951bcc9ef01367a87eda197cca8d2",
+               "url": "https://raw.githubusercontent.com/CELLINKAB/lowlevelboard-arduino-utils/nx3/neocortex-1.2.0.zip",
+               "archiveFileName": "neocortex-1.2.0.zip",
+               "checksum": "SHA-256:3fec7d0fd5c132988ebd7f8c5851e5d0ac57f8aa28fba579bda5641ccf3bcd71",
                "size": "4767",
                "help": {
                   "online": "https://cellink.com"
