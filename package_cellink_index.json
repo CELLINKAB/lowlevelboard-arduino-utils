@@ -14,7 +14,7 @@
                "architecture": "avr",
                "version": "1.2.0",
                "category": "Contributed",
-               "url": "https://raw.githubusercontent.com/CELLINKAB/lowlevelboard-arduino-utils/nx3/neocortex-1.2.0.zip",
+               "url": "https://raw.githubusercontent.com/CELLINKAB/lowlevelboard-arduino-utils/master/neocortex-1.2.0.zip",
                "archiveFileName": "neocortex-1.2.0.zip",
                "checksum": "SHA-256:3fec7d0fd5c132988ebd7f8c5851e5d0ac57f8aa28fba579bda5641ccf3bcd71",
                "size": "4767",
