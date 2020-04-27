@@ -34,8 +34,8 @@ neocortex.menu.revision.neocortex1.build.board=AVR_NEOCORTEX
 neocortex.menu.revision.neocortex2=Neocortex 2.X
 neocortex.menu.revision.neocortex2.build.board=AVR_NEOCORTEX2
 
-neocortex.menu.revision.neocortex3=Neocortex 3.0
-neocortex.menu.revision.neocortex3.build.board=AVR_NEOCORTEX3_0
+neocortex.menu.revision.neocortex3_0=Neocortex 3.0
+neocortex.menu.revision.neocortex3_0.build.board=AVR_NEOCORTEX3_0
 
-neocortex.menu.revision.neocortex3=Neocortex 3.1
-neocortex.menu.revision.neocortex3.build.board=AVR_NEOCORTEX3_1
+neocortex.menu.revision.neocortex3_1=Neocortex 3.1
+neocortex.menu.revision.neocortex3_1.build.board=AVR_NEOCORTEX3_1
