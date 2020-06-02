@@ -57,3 +57,8 @@ If, for instance, you would add a new board to `boards.txt` called Neovortex, th
 #### Deployment
 
 1. After testing, edit the URL in the package index document and commit again.
+
+
+#### Build pipeline
+
+In the yocto recipe, this package is pulled via it's commit hash. This commit ID needs to be updated in the Yocto recipe in the file "neocortex-arduino-native_0.0.1.bb"
