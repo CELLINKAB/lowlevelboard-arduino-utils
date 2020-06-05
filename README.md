@@ -61,4 +61,14 @@ If, for instance, you would add a new board to `boards.txt` called Neovortex, th
 
 #### Build pipeline
 
-In the yocto recipe, this package is pulled via it's commit hash. This commit ID needs to be updated in the Yocto recipe in the file "neocortex-arduino-native_0.0.1.bb"
+1. In the yocto recipe, this package is pulled via it's commit hash. This commit ID needs to be updated in the Yocto recipe in the file "neocortex-arduino-native_0.0.1.bb"
+
+2. Lastly, in the Jenkins configuration panel scroll down to the "Execute shell" script, and add the new recipe to the list of recipe configurations that need to be generated for "local.conf". For example:
+
+```bash
+if [ -n "${BIOX_TORSK_FIRMWARE_BRANCH}" ]; then
+	echo "BIOX_INTEGRATION_BRANCH_pn-rombov-firmware = \"${BIOX_TORSK_FIRMWARE_BRANCH}\"" >> conf/local.conf
+	echo "BIOX_INTEGRATION_BRANCH_pn-rombov2-firmware = \"${BIOX_TORSK_FIRMWARE_BRANCH}\"" >> conf/local.conf
+    echo "BIOX_INTEGRATION_BRANCH_pn-rombov3-firmware = \"${BIOX_TORSK_FIRMWARE_BRANCH}\"" >> conf/local.conf
+fi
+```
