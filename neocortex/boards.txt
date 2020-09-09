@@ -39,3 +39,30 @@ neocortex.menu.revision.neocortex3_0.build.board=AVR_NEOCORTEX3_0
 
 neocortex.menu.revision.neocortex3_1=Neocortex 3.1
 neocortex.menu.revision.neocortex3_1.build.board=AVR_NEOCORTEX3_1
+
+########################################
+## Neocortex-CC
+########################################
+neocortex_cc.name=Neocortex-CC
+neocortex_cc.vid.0=0x0403
+neocortex_cc.pid.0=0x6001
+neocortex_cc.upload.tool=arduino:avrdude
+neocortex_cc.upload.protocol=wiring
+neocortex_cc.upload.maximum_size=258048
+neocortex_cc.upload.speed=115200
+neocortex_cc.bootloader.low_fuses=0xFF
+neocortex_cc.bootloader.high_fuses=0xD8
+neocortex_cc.bootloader.extended_fuses=0xFD
+neocortex_cc.bootloader.path=stk500v2
+neocortex_cc.bootloader.unlock_bits=0x3F
+neocortex_cc.bootloader.lock_bits=0x0F
+neocortex_cc.build.mcu=atmega2560
+neocortex_cc.build.f_cpu=16000000L
+neocortex_cc.build.core=arduino:arduino
+neocortex_cc.build.variant=neocortex
+
+neocortex_cc.menu.revision.r2=Cellcyte Neocortex 2
+neocortex_cc.menu.revision.r2.build.board=AVR_NEOCORTEX_CC_2
+
+neocortex_cc.menu.revision.r3=Cellcyte Neocortex 3
+neocortex_cc.menu.revision.r3.build.board=AVR_NEOCORTEX_CC_3
